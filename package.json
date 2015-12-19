@@ -2,8 +2,7 @@
   "name": "angular1-typescript-systemjs",
   "version": "1.0.0",
   "description": "An example on how to use TypeScript with AngularJS 1.* and SystemJS module loader",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fadihania/angular1-typescript-systemjs.git"
@@ -15,5 +14,12 @@
   ],
   "author": "Fadi Hania <http://fadihania.com>",
   "license": "MIT",
-  "homepage": "https://github.com/fadihania/angular1-typescript-systemjs#readme"
+  "homepage": "https://github.com/fadihania/angular1-typescript-systemjs#readme",
+  "devDependencies": {
+    "typescript": "^1.7.5"
+  },
+  "dependencies": {
+    "angular": "^1.4.8",
+    "systemjs": "^0.19.9"
+  }
 }
