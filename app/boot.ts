@@ -1,6 +1,6 @@
 /// <reference path="../typings/tsd.d.ts" />
 import * as angular from 'angular';
-import {MainController} from './main.controller.ts';
+import {MainController} from './main.controller';
 
 
 // Creating main app module and MainController
