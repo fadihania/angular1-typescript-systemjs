@@ -1,27 +1,32 @@
 {
-  "name": "angular1-typescript-systemjs",
-  "version": "1.0.0",
-  "description": "An example on how to use TypeScript with AngularJS 1.* and SystemJS module loader",
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fadihania/angular1-typescript-systemjs.git"
-  },
-  "keywords": [
-    "angular",
-    "typescript",
-    "systemjs"
-  ],
-  "author": "Fadi Hania <http://fadihania.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/fadihania/angular1-typescript-systemjs#readme",
-  "devDependencies": {
-    "concurrently": "^1.0.0",
-    "lite-server": "^1.3.1",
-    "typescript": "^1.7.5"
-  },
-  "dependencies": {
-    "angular": "^1.4.8",
-    "systemjs": "^0.19.9"
-  }
+    "name": "angular1-typescript-systemjs",
+    "version": "1.0.0",
+    "description": "An example on how to use TypeScript with AngularJS 1.* and SystemJS module loader",
+    "scripts": {
+        "tsc": "tsc",
+        "tsc:w": "tsc -w",
+        "lite": "lite-server",
+        "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fadihania/angular1-typescript-systemjs.git"
+    },
+    "keywords": [
+        "angular",
+        "typescript",
+        "systemjs"
+    ],
+    "author": "Fadi Hania <http://fadihania.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/fadihania/angular1-typescript-systemjs#readme",
+    "devDependencies": {
+        "concurrently": "^1.0.0",
+        "lite-server": "^1.3.1",
+        "typescript": "^1.7.5"
+    },
+    "dependencies": {
+        "angular": "^1.4.8",
+        "systemjs": "^0.19.9"
+    }
 }
